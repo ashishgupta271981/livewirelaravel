@@ -38,6 +38,8 @@
 
                             </div>
 
+                            
+
                         @endif
 
                       @livewire('posts')
