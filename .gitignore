@@ -1,0 +1,52 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# IDE / Editor files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PHPUnit
+.phpunit.result.cache
+
+# NPM / Yarn
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Build files
+/public/hot
+/public/build
+
+# Optional: Ignore compiled assets if using Vite/Mix
+/public/js
+/public/css
+
+# Docker (optional)
+/docker-compose.override.yml
+
+# Misc
+*.swp
